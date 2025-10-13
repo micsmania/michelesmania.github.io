@@ -1,0 +1,24 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "My Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Michele",
+    "Smania",
+    "portfolio"
+  ],
+  "author": "Michele Smania",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.93.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
+  }
+}
