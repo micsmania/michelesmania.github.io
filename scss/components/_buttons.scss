@@ -34,5 +34,6 @@
 
     &:hover {
         @include gradient;
+        transition-duration: 10s;
     }
 }
