@@ -12,7 +12,7 @@
     margin: 0;
     border: none;
     color: $white;
-    background: $primary;
+    background: red;
     justify-content: center;
 
     span {
@@ -34,6 +34,5 @@
 
     &:hover {
         @include gradient;
-        transition-duration: 10s;
     }
 }
