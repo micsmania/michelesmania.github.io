@@ -1,0 +1,22 @@
+@use '../custom' as *;
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.display-2 {
+    margin-bottom: 1rem;
+
+    &--intro {
+        display: inline-block;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    &--description {
+        font-size: 1.5rem;
+        display: block;
+        margin-top: 1.2rem;
+        text-transform: none;
+    }
+}
