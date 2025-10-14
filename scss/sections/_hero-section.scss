@@ -3,7 +3,7 @@
 
 .intro-section {
     @include gradient;
-    padding: 10rem 0 0 0;
+    padding: 5rem 0 0 0;
     width: 100%;
     height: 100%;
 }
@@ -12,6 +12,12 @@
 
     .img-box {
         position: relative;
-        width: 20rem;
+        width: 28rem;
+        height: 28rem;
+        left: 15%;
+
+        img {
+            border-radius: 500px;
+        }
     }
 }

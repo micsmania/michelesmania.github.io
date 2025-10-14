@@ -11866,16 +11866,16 @@ textarea.form-control-lg {
 .btn-rounded {
   position: relative;
   padding: 0.9375rem 4.375rem 1.25rem 0.9375rem;
+  padding: 0.275rem 1.25rem;
   font-weight: 600;
   margin: 0;
   border: none;
   color: #fff;
   background: #1B0E2C;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .btn-rounded span {
-  position: absolute;
   width: 2.5rem;
   height: 2.5rem;
   top: 50%;
@@ -11887,6 +11887,7 @@ textarea.form-control-lg {
   color: #fff;
   font-size: 1rem;
   line-height: 2.5rem;
+  margin-left: 0.5rem;
 }
 .btn-rounded:hover {
   background: linear-gradient(to right, rgba(27, 14, 44, 0.95), rgba(64, 34, 122, 0.95));
@@ -11928,14 +11929,19 @@ body {
 
 .intro-section {
   background: linear-gradient(to right, rgba(27, 14, 44, 0.95), rgba(64, 34, 122, 0.95));
-  padding: 10rem 0 0 0;
+  padding: 5rem 0 0 0;
   width: 100%;
   height: 100%;
 }
 
 .intros .img-box {
   position: relative;
-  width: 20rem;
+  width: 28rem;
+  height: 28rem;
+  left: 15%;
+}
+.intros .img-box img {
+  border-radius: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
