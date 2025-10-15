@@ -1,0 +1,23 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.projects-section {
+    background: black;
+    padding: 2rem 0;
+
+    .card {
+        @include gradient;
+        margin: 1rem 1.5rem;
+        width: 35rem;
+        height: 30rem;
+        color: $white;
+        
+        .card-img-top {
+            width: 50%;
+        }
+
+        .card-body {
+            height: 50;
+        }
+    }
+}
