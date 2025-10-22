@@ -1,6 +1,8 @@
 //MY THEME COLORS
-$purple-dark:  #1B0E2C;
 $purple: #1d0946;
+$purple-dark:  #1B0E2C;
+$purple-light: #5313a6;
+
 
 .navbar-brand img {
   max-width: 50px;
@@ -22,6 +24,7 @@ $black:    #000;
 
 $primary:       $purple-dark;
 $secondary:     $purple;
+$light:         $purple-light;
 
 // IMPORT BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

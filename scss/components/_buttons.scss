@@ -13,9 +13,11 @@
     margin: 0;
     border: none;
     color: $white;
-    background: $primary;
+    background: $light;
     justify-content: start;
     align-items: center;
+    
+
 
     span {
        // position: absolute;
@@ -36,5 +38,8 @@
 
     &:hover {
         @include gradient;
+        transform: translateY(-4px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
     }
 }
