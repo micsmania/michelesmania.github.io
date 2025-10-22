@@ -1,2 +1,11 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
+
+.card {
+    .btn-rounded {
+    
+        span {
+            margin-right: 5px;
+        }
+}
+}
