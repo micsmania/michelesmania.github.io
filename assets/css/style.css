@@ -11865,33 +11865,30 @@ textarea.form-control-lg {
 }
 .btn-rounded {
   position: relative;
-  padding: 0.9375rem 4.375rem 1.25rem 0.9375rem;
   padding: 0.275rem 1.25rem;
   font-weight: 600;
-  margin: 0;
+  margin: 0 0.25rem 0.25rem 0;
   border: none;
   color: #fff;
   background: #5313a6;
   justify-content: start;
   align-items: center;
+  transition: all 0.6s ease;
 }
 .btn-rounded span {
   width: 2.5rem;
   height: 2.5rem;
   top: 50%;
   right: 20px;
-  transform: translateY(-50%);
   border-radius: 50%;
 }
 .btn-rounded span i {
   color: #fff;
   font-size: 1rem;
   line-height: 2.5rem;
-  margin-left: 0.5rem;
 }
 .btn-rounded:hover {
-  background: linear-gradient(to right, #1b0e2c, #1d0946);
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -11930,6 +11927,10 @@ i {
 .menu li a {
   color: #fff !important;
   text-transform: capitalize;
+  transition: all 0.6s ease;
+}
+.menu li:hover {
+  transform: translateY(-4px);
 }
 
 .navbar-toggler {
@@ -11979,6 +11980,9 @@ i {
 }
 .projects-section .card .card-body {
   height: 50;
+}
+.projects-section .card .card-body .btn-rounded .btn-icon {
+  margin-right: 0.5rem;
 }
 
 .skills-section {
