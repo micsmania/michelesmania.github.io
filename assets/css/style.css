@@ -11927,7 +11927,6 @@ i {
 .menu li a {
   color: #fff !important;
   text-transform: capitalize;
-  transition: all 0.6s ease;
 }
 .menu li:hover {
   transform: translateY(-4px);
@@ -11974,15 +11973,16 @@ i {
   width: 35rem;
   height: 30rem;
   color: #fff;
-}
-.projects-section .card .card-img-top {
-  width: 50%;
+  transition: 0.6s;
 }
 .projects-section .card .card-body {
   height: 50;
 }
 .projects-section .card .card-body .btn-rounded .btn-icon {
   margin-right: 0.5rem;
+}
+.projects-section .card:hover {
+  transform: scale(1.02);
 }
 
 .skills-section {

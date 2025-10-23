@@ -11,9 +11,10 @@
         width: 35rem;
         height: 30rem;
         color: $white;
+        transition: .6s;
         
         .card-img-top {
-            width: 50%;
+            
         }
 
         .card-body {
@@ -29,5 +30,10 @@
 
             
         }
+    }
+
+    .card:hover {
+    transform: scale(1.02);
+
     }
 }

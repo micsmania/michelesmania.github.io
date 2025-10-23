@@ -13,12 +13,11 @@
         a {
             color: $white !important;
             text-transform: capitalize;
-            transition: all .6s ease;
-
         }
 
         &:hover {
         transform: translateY(-4px);
+        
     }
     }
 
