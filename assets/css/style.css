@@ -12000,14 +12000,20 @@ i {
   width: 11.25rem;
   height: 11.25rem;
 }
-.skill-card .card-body .skill-icon {
-  width: 100%;
-  height: 100%;
+.skill-card .card-body .skill-icon-container {
   color: white;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid red;
+  margin: 1rem auto;
+}
+.skill-card .card-body .skill-icon-container .skill-icon {
+  font-size: 7rem;
 }
 .skill-card .card-body .skill-text {
   text-align: center;
   top: 100%;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
