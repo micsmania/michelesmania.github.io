@@ -11957,6 +11957,9 @@ i {
 .intros .img-box img {
   border-radius: 500px;
 }
+.intros .social-icon {
+  margin-left: 0.7em;
+}
 
 .about-section {
   background: black;
