@@ -12040,20 +12040,11 @@ i {
   color: #fff;
 }
 
-.skill-card svg {
-  font-size: 1em;
-  fill: #fff;
-  padding-bottom: 1em;
-}
-
 .skill-icon {
   width: 55px;
   margin-bottom: 35px;
   font-size: 64px;
-}
-.skill-icon .java {
-  width: 180px;
-  height: 180px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
