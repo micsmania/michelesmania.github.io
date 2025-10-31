@@ -11962,6 +11962,17 @@ i {
 .intros .social-icon {
   margin-left: 0.7em;
 }
+@media (max-width: 768px) {
+  .intros .intro-section .img-box {
+    text-align: center !important;
+  }
+  .intros .intro-section .img-box img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 .about-section {
   background: black;
