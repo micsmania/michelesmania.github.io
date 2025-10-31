@@ -16,8 +16,10 @@
         height: 28rem;
         left: 15%;
 
-        img {
+        .img-fluid {
             border-radius: 500px;
+            max-width: 100%;
+            height: auto;
         }
     }
 

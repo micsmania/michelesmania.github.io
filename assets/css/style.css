@@ -11954,8 +11954,10 @@ i {
   height: 28rem;
   left: 15%;
 }
-.intros .img-box img {
+.intros .img-box .img-fluid {
   border-radius: 500px;
+  max-width: 100%;
+  height: auto;
 }
 .intros .social-icon {
   margin-left: 0.7em;
