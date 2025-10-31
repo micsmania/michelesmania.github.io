@@ -26,4 +26,18 @@
     .social-icon {
         margin-left: 0.7em;
     }
+
+    @media (max-width: 768px) {
+    
+        .intro-section .img-box {
+            text-align: center !important;
+        }
+
+        .intro-section .img-box img {
+            max-width: 60%;
+            height: auto;   
+            display: block;
+            margin: 0 auto;
+        }
+    }
 }
