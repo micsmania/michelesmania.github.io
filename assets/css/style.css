@@ -11956,19 +11956,13 @@ i {
 @media (max-width: 768px) {
   .intros .img-box {
     text-align: center !important;
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 .intros .img-box .img-fluid {
   border-radius: 500px;
   max-width: 100%;
   height: auto;
-}
-@media (max-width: 768px) {
-  .intros .img-box .img-fluid {
-    text-align: center !important;
-    margin: auto;
-  }
 }
 .intros .social-icon {
   margin-left: 0.7em;
