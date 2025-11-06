@@ -4,4 +4,12 @@
 .about-section {
     background: black;
     padding: 2rem 0;
+
+    .about-img {
+        
+        img{
+            margin-left: 80px;
+            width: 500px;
+        }
+    }
 }

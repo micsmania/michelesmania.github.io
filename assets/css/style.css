@@ -11972,6 +11972,10 @@ i {
   background: black;
   padding: 2rem 0;
 }
+.about-section .about-img img {
+  margin-left: 80px;
+  width: 500px;
+}
 
 .projects-section {
   background: black;
