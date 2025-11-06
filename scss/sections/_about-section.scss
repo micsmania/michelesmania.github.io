@@ -2,7 +2,7 @@
 @use '../components/mixins' as *;
 
 .about-section {
-    background: black;
+    @include gradient;
     padding: 2rem 0;
 
     .about-img {

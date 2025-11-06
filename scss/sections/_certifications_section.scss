@@ -2,14 +2,18 @@
 @use '../components/mixins' as *;
 
 .certifications-section {
-    background-color: black;
+    background-color: $black;
     padding: 2rem 0;
 
-    .about-img {
-        
-        img{
-            margin-left: 80px;
-            width: 500px;
+    .carousel-inner {
+        min-height: 450px; 
+
+        .carousel-item img {
+            max-height: 400px;
+            object-fit: contain;
+            display: block; 
+            margin: auto;
         }
+
     }
 }

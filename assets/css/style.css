@@ -11905,7 +11905,7 @@ body {
   text-transform: capitalize;
 }
 .display-2--description {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: block;
   margin-top: 1.2rem;
   text-transform: none;
@@ -11973,7 +11973,7 @@ a {
 }
 
 .about-section {
-  background: black;
+  background: linear-gradient(to right, #1b0e2c, #1d0946);
   padding: 2rem 0;
 }
 .about-section .about-img img {
@@ -12014,7 +12014,6 @@ a {
 .cards-container {
   position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -12060,12 +12059,29 @@ a {
 }
 
 .certifications-section {
-  background-color: black;
+  background-color: #000;
   padding: 2rem 0;
 }
-.certifications-section .about-img img {
-  margin-left: 80px;
-  width: 500px;
+.certifications-section .carousel-inner {
+  min-height: 450px;
+}
+.certifications-section .carousel-inner .carousel-item img {
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+.footer {
+  background: black;
+  padding: 2rem 0;
+}
+.footer .impressum {
+  font-size: 12px;
+  margin: auto;
+}
+.footer .impressum a:hover {
+  color: #5313a6;
 }
 
 /*# sourceMappingURL=style.css.map */

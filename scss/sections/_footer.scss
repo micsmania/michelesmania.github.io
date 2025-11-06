@@ -1,2 +1,17 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
+
+
+.footer {
+    background: black;
+    padding: 2rem 0;
+
+    .impressum {
+        font-size: 12px;
+        margin: auto;
+
+        a:hover {
+            color: $purple-light;
+        }
+    }
+}
