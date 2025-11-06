@@ -11915,6 +11915,10 @@ i {
   color: white;
 }
 
+a {
+  color: #fff;
+}
+
 .menu {
   background: linear-gradient(to right, #1b0e2c, #1d0946);
   position: sticky;
@@ -11980,9 +11984,6 @@ i {
 .projects-section {
   background: black;
   padding: 2rem 0;
-}
-.projects-section a {
-  color: #fff;
 }
 .projects-section .card {
   background: linear-gradient(to right, #1b0e2c, #1d0946);
@@ -12056,6 +12057,15 @@ i {
   margin-bottom: 35px;
   font-size: 64px;
   filter: brightness(0) invert(1);
+}
+
+.certifications-section {
+  background-color: black;
+  padding: 2rem 0;
+}
+.certifications-section .about-img img {
+  margin-left: 80px;
+  width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */

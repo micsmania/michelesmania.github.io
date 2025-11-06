@@ -5,10 +5,6 @@
     background: black;
     padding: 2rem 0;
 
-    a {
-        color: $white;
-    }
-
     .card {
         @include gradient;
         margin: 1rem 1.5rem;
