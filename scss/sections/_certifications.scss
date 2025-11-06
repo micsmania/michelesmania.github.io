@@ -1,0 +1,11 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.certifications-section {
+    background: black;
+    padding: 2rem 0;
+
+    a {
+        color: $white;
+    }
+}
