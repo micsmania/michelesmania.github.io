@@ -13,6 +13,11 @@
             object-fit: contain;
             display: block; 
             margin: auto;
+            transition: .6s;
+        }
+
+        .carousel-item img:hover {
+            transform: scale(1.02);
         }
 
     }
