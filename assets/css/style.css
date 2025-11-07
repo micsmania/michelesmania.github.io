@@ -11972,6 +11972,9 @@ a {
 .intros .social-icon {
   margin-left: 0.7em;
 }
+.intros a {
+  text-decoration: none;
+}
 
 .about-section {
   background: linear-gradient(to right, #1b0e2c, #1d0946);
