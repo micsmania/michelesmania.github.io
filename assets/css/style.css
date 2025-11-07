@@ -11936,6 +11936,11 @@ a {
 .menu li:hover {
   transform: translateY(-4px);
 }
+.menu .flag {
+  width: 1.3rem;
+  margin-left: 1rem;
+  border-radius: 2px;
+}
 
 .navbar-toggler {
   border: none;

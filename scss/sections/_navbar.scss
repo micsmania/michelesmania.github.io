@@ -17,10 +17,15 @@
 
         &:hover {
         transform: translateY(-4px);
-        
-    }
+        }
+
     }
 
+    .flag {
+        width: 1.3rem;
+        margin-left: 1rem;
+        border-radius: 2px;
+    }
 
 }
 
