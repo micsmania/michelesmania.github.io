@@ -11918,7 +11918,6 @@ i {
 
 a {
   color: #fff;
-  text-decoration: none;
 }
 
 .menu {
@@ -12020,6 +12019,9 @@ a {
 .skills-section {
   background: linear-gradient(to right, #1b0e2c, #1d0946);
   padding: 2rem 0;
+}
+.skills-section h3 {
+  margin: 1.5rem 0 0 0;
 }
 
 .cards-container {
