@@ -11912,11 +11912,13 @@ body {
 }
 
 i {
-  color: white;
+  color: #fff;
+  text-decoration: none;
 }
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .menu {
@@ -12084,6 +12086,9 @@ a {
 .footer {
   background: black;
   padding: 2rem 0;
+}
+.footer .footer-column {
+  margin-bottom: 1.5rem;
 }
 .footer .impressum {
   font-size: 12px;
