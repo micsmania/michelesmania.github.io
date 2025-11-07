@@ -11977,8 +11977,17 @@ a {
   padding: 2rem 0;
 }
 .about-section .about-img img {
-  margin-left: 80px;
-  width: 500px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .about-section .about-img {
+    margin: 1rem auto;
+    text-align: center !important;
+    max-width: 500px;
+  }
 }
 
 .projects-section {
