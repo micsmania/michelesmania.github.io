@@ -29,3 +29,36 @@ i {
 a {
     color: $white;
 }
+
+// NAVIGATION LINKS
+
+li {
+    padding: 0 0.7rem;
+
+    a {
+        color: $white !important;
+        text-transform: capitalize;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 1px;
+    }
+
+    a:before {
+        content: "";
+        position: absolute;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        background: currentColor;
+        transition: transform 0.3s ease-out;
+    }
+
+    a:hover:before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+}

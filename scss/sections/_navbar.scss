@@ -5,21 +5,9 @@
     @include gradient;
     position: sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 10;
 
-    li {
-        padding: 0 0.7rem;
-        
-        a {
-            color: $white !important;
-            text-transform: capitalize;
-        }
-
-        &:hover {
-        transform: translateY(-4px);
-        }
-
-    }
+    
 
     .flag {
         width: 1.3rem;
