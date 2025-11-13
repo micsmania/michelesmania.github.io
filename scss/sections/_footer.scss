@@ -10,6 +10,14 @@
         margin-bottom: 1.5rem;
     }
 
+    .navbar-nav .nav-item {
+        margin-bottom: 1rem;
+        
+        &:first-child {
+            margin-top: 0.7rem;
+        }
+    }
+
     .impressum {
         font-size: 12px;
         margin: auto;

@@ -11959,6 +11959,18 @@ li a:hover:before {
   margin-left: 1rem;
   border-radius: 2px;
 }
+@media (max-width: 768px) {
+  .menu .navbar-nav .nav-item {
+    margin-bottom: 1rem;
+  }
+  .menu .navbar-nav .nav-item:first-child {
+    margin-top: 0.7rem;
+  }
+}
+
+.navbar-nav .nav-item .nav-link {
+  display: inline;
+}
 
 .navbar-toggler {
   border: none;
@@ -12126,6 +12138,12 @@ li a:hover:before {
 }
 .footer .footer-column {
   margin-bottom: 1.5rem;
+}
+.footer .navbar-nav .nav-item {
+  margin-bottom: 1rem;
+}
+.footer .navbar-nav .nav-item:first-child {
+  margin-top: 0.7rem;
 }
 .footer .impressum {
   font-size: 12px;
