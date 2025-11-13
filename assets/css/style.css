@@ -11952,6 +11952,7 @@ li a:hover:before {
   position: sticky;
   top: 0;
   z-index: 10;
+  transition: 1s;
 }
 .menu .flag {
   width: 1.3rem;
@@ -11965,7 +11966,6 @@ li a:hover:before {
 
 .scrolled {
   box-shadow: 0 0.94em 1em -0.5em rgba(0, 0, 0, 0.2);
-  transition: 1000ms;
 }
 
 .intro-section {
