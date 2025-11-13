@@ -1,13 +1,25 @@
-const navbarEl = document.getElementById('navbar');
+const navbar = document.getElementById('navbar');
+const scrollTrigger = 50;
 
-//ADD SHADOW EFFECT TO NAVBAR WHEN SCROLLING DOWN
-
-function toggleBoxShadow (){
-    if (window.scrollY > 0) {
-        navbarEl.classList.add('scrolled')
-    } else {
-        navbarEl.classList.remove('scrolled')
+document.addEventListener('DOMContentLoaded', function() {
+    if (!navbar) {
+        console.error("Elemento con ID '#navbar' non trovato.");
+        return;
     }
-};
 
-toggleBoxShadow();
+    function handleScroll() {
+        // window.scrollY indica la posizione verticale dello scroll
+        if (window.scrollY >= scrollTrigger) {
+            // Se si supera il trigger, aggiunge l'ombra (la classe .scrolled)
+            navbar.classList.add('scrolled');
+        } else {
+            // Se si è vicino all'inizio della pagina, rimuove l'ombra
+            navbar.classList.remove('scrolled');
+        }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    handleScroll();
+    }
+);
