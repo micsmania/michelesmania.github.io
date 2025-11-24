@@ -18,22 +18,23 @@
         }
 
         .card-body {
-            height: 50;
+            //height: 50;
 
             .btn-rounded {
 
                 .btn-icon {
                     margin-right: 0.5rem;
                 }
-
+                
             }
+        }
 
-            
+        @media (max-width: 768px) {
+            max-width: 95%;
         }
     }
 
     .card:hover {
     transform: scale(1.02);
-
     }
 }

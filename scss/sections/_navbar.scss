@@ -15,16 +15,18 @@
     }
 
     @media (max-width: 768px) {
-    .navbar-nav .nav-item {
-        margin-bottom: 1rem; 
+        .navbar-nav .nav-item {
+            margin-bottom: 1rem; 
 
-        &:first-child {
-            margin-top: 0.7rem;
+            &:first-child {
+                margin-top: 0.7rem;
+            }
+        }
+
+        a {
+            text-decoration: none;
         }
     }
-
-
-}
 
 }
 
