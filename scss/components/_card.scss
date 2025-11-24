@@ -4,9 +4,13 @@
 .card {
     
     .btn-rounded {
-    
+
         span {
            margin-right: 5px;
+        }
+
+        @media (max-width: 768px) {
+            margin-bottom: 32px;
         }
     }
 }
