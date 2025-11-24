@@ -3,14 +3,15 @@
 
 .certifications-section {
     background-color: $black;
-    padding: 2rem 0;
+    padding: 3rem 0 5rem 0;
 
     a:hover {
             color: $purple-light;
         }
 
     .carousel-inner {
-        min-height: 450px; 
+        min-height: 410px; 
+
 
         .carousel-item img {
             max-height: 400px;
