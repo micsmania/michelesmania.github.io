@@ -13,10 +13,9 @@
     .img-box {
         margin: auto;
         width: 28rem;
-        height: 28rem;
 
         @media (max-width: 768px) {
-            text-align: center !important;
+            margin-top: 1.25rem;
             max-width: 95%;
         }
 

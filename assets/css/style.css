@@ -11990,11 +11990,10 @@ li a:hover:before {
 .intros .img-box {
   margin: auto;
   width: 28rem;
-  height: 28rem;
 }
 @media (max-width: 768px) {
   .intros .img-box {
-    text-align: center !important;
+    margin-top: 1.25rem;
     max-width: 95%;
   }
 }
