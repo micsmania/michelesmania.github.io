@@ -1,6 +1,10 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+:root {
+  scroll-padding-top: 70px;
+}
+
 .menu {
     @include gradient;
     position: sticky;

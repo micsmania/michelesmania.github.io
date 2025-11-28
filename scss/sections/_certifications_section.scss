@@ -5,9 +5,9 @@
     background-color: $black;
     padding: 3rem 0 5rem 0;
 
-    a:hover {
-            color: $purple-light;
-        }
+    .link-text:hover {
+        color: $purple-light;
+    }
 
     .carousel-inner {
         min-height: 410px; 

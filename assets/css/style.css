@@ -11947,6 +11947,10 @@ li a:hover:before {
   transform-origin: bottom left;
 }
 
+:root {
+  scroll-padding-top: 70px;
+}
+
 .menu {
   background: linear-gradient(to right, #1b0e2c, #1d0946);
   position: sticky;
@@ -12040,6 +12044,9 @@ li a:hover:before {
   background: black;
   padding: 2rem 0;
 }
+.projects-section .link-text:hover {
+  color: #5313a6;
+}
 .projects-section .card {
   background: linear-gradient(to right, #1b0e2c, #1d0946);
   margin: 1rem 1.5rem;
@@ -12122,7 +12129,7 @@ li a:hover:before {
   background-color: #000;
   padding: 3rem 0 5rem 0;
 }
-.certifications-section a:hover {
+.certifications-section .link-text:hover {
   color: #5313a6;
 }
 .certifications-section .carousel-inner {
@@ -12161,6 +12168,20 @@ li a:hover:before {
 }
 .footer .impressum a:hover {
   color: #5313a6;
+}
+
+.legal-notice {
+  background: linear-gradient(to right, #1b0e2c, #1d0946);
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.legal-notice {
+  background: linear-gradient(to right, #1b0e2c, #1d0946);
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
